@@ -1,0 +1,103 @@
+[
+  {
+    "description": " User wants to navigate through the different features",
+    "keyword": "Feature",
+    "name": "Hubspot user interaction",
+    "line": 1,
+    "id": "hubspot-user-interaction",
+    "tags": [],
+    "uri": "hubspot.feature",
+    "elements": [
+      {
+        "id": "hubspot-user-interaction;user-should-be-able-to-browse-the-application",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User should be able to browse the application",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User launches the application",
+            "result": {
+              "status": "passed",
+              "duration": 3355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User accept the cookies",
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User clicks on \"Software\" link",
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "hubspot-user-interaction;user-should-be-able-to-click-on-software-link",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User should be able to click on software link",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User launches the application",
+            "result": {
+              "status": "passed",
+              "duration": 2570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User accept the cookies",
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User clicks on \"Software\" link",
+            "result": {
+              "status": "passed",
+              "duration": 424000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

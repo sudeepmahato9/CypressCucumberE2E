@@ -1,0 +1,31 @@
+{
+  "name": "cypress_cucumber_bdd",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "sudeep mahato",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0",
+    "cypress-iframe": "^1.0.1"
+  },
+  "chromeWebSecurity": false,
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "jshint": "^2.13.6"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/hubspot",
+    "cucumberJson": {
+      "generate": "true",
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
