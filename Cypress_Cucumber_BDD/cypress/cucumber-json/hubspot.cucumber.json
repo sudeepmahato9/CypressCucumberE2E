@@ -28,7 +28,7 @@
             "name": "User launches the application",
             "result": {
               "status": "passed",
-              "duration": 3355000000
+              "duration": 2924000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "User accept the cookies",
             "result": {
               "status": "passed",
-              "duration": 179000000
+              "duration": 161000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "User clicks on \"Software\" link",
             "result": {
               "status": "passed",
-              "duration": 397000000
+              "duration": 120000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "User launches the application",
             "result": {
               "status": "passed",
-              "duration": 2570000000
+              "duration": 6106000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "User accept the cookies",
             "result": {
               "status": "passed",
-              "duration": 180000000
+              "duration": 114000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "User clicks on \"Software\" link",
             "result": {
               "status": "passed",
-              "duration": 424000000
+              "duration": 118000000
             }
           }
         ]
